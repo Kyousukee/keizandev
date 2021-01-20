@@ -187,7 +187,8 @@ gracias a la Tecnologia, Internet y Keizandev.
 
   <div class="form-group" style="text-align: center;">
     <div class="col-sm-6">
-      <img src="/w3images/team2.jpg" alt="Jose" style="width:100%">
+      <img src="img/usuario.png" alt="Jose" style="    width: 150px;
+    height: 170px;">
       <h3>Jose Vergara</h3>
       <p class="w3-opacity">Analista Programador</p>
       <p>Jose es nuestro analista programador estudiando actualmente para terminar la ingenieria en informatica, su buena disposicion y su rapido aprendizaje nos han podido aportar mucho en keizandev,
@@ -202,7 +203,8 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
 
     </div>
     <div class="col-sm-6">
-      <img src="/w3images/team1.jpg" alt="Carlos" style="width:100%">
+      <img src="img/usuario.png" alt="Carlos" style="    width: 150px;
+    height: 170px;">
       <h3>Carlos Aranguiz</h3>
       <p class="w3-opacity">Ingeniero en Informatica</p>
       <p>Carlos es ingeniero en informatica, acostumbrado a trabajar bajo presion, es una persona bastante resolutiva, 3 años de experiencia desarrollando aplicaciones web, sus habilidades nos han sido de gran ayuda al momento de entregar soluciones a nuestros clientes posee conocimientos en lenguajes tales como ReactJs, NodeJs, php,javascript,Mysql, MongoDb, tambien maneja sistemas como linux y windows.</p>
