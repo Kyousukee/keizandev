@@ -1,23 +1,34 @@
 <?php
-$nombre = $_POST['nombre'];
-$mail = $_POST['email'];
-$asunto = $_POST['asunto'];
-$comentario = $_POST['comentario'];
-
-$header = 'From: ' . $mail . " \r\n";
-$header .= "X-Mailer: PHP/" . phpversion() . " \r\n";
-$header .= "Mime-Version: 1.0 \r\n";
-$header .= "Content-Type: text/plain";
-
-$mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
-$mensaje .= "Su e-mail es: " . $mail . " \r\n";
-$mensaje .= "Mensaje: " . $_POST['comentario'] . " \r\n";
-$mensaje .= "Enviado el " . date('d/m/Y', time());
-
-$para = 'jjosemiguel.jv@gmail.com;carlos.aranguiz2004@gmailcom';
 
 
-mail($para, $asunto, utf8_decode($mensaje), $header);
+	
+	if (isset($_POST['enviarmail'])) {
+	if (!empty($_POST['email']) && !empty($_POST['nombre']) && !empty($_POST['asunto']) && !empty($_POST['comentario']) ) {
 
-header("Location:Index.html");
+
+		$nombre = $_POST['nombre'];
+		$Email = $_POST['email'];
+		$asunto = $_POST['asunto'];
+		$comentario = $_POST['comentario'];
+
+		$mensaje = "Este mensaje fue enviado por " . $nombre . ",\r\n";
+		$mensaje .= "Su e-mail es: " . $Email . " \r\n";
+		$mensaje .= "Mensaje: " . $_POST['comentario'] . " \r\n";
+		$mensaje .= "Enviado el " . date('d/m/Y', time());
+
+		$para = "jjosemiguel.jv@gmail.com,carlos.aranguiz2004@gmail.com";
+
+
+		$header = "From: contacto@keizandev.cl"."\r\n";
+		$header .= "Reply-To: contacto@keizandev.cl"."\r\n";
+		$header .= "X-Mailer: PHP/".phpversion();
+		$mail = @mail($para, $asunto, $mensaje,$header);
+
+		if ($mail) {
+			echo "<script>window.onload=function() {alert('Mensaje enviado');location.replace('http://keizandev.cl/')};</script>";
+		}
+	}
+}
+
+
 ?>
