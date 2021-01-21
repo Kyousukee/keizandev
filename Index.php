@@ -154,7 +154,7 @@ transition: opacity 400ms ease-in;
 }
 
     </style>
-<body>
+<body onload="onloadddd()">
 
 	<a href="https://api.whatsapp.com/send?phone=56932507495&text=Hola!%20Deseo%20mas%20informacion%20del%20servicio%EF%B8%8F" class="btn-wsp" target="_blank">
     <i class='bx bxl-whatsapp'></i>
