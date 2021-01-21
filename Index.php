@@ -30,6 +30,9 @@
     <!--Ultimo estilo-->
     <link href="css/estilo.css" rel="stylesheet" />
     <link href="css/chk.css" rel="stylesheet" />
+    <link href="css/wsp.css" rel="stylesheet" />
+     <link href="css/boxicons.min.css" rel="stylesheet" />
+     <link href="css/boxicons.css" rel="stylesheet" />
 
     <!--DatePicker-->
     <script type="text/javascript" src="js/jquery-ui.js"></script>
@@ -153,6 +156,10 @@ transition: opacity 400ms ease-in;
     </style>
 <body>
 
+	<a href="https://api.whatsapp.com/send?phone=56932507495&text=Hola!%20Deseo%20mas%20informacion%20del%20servicio%EF%B8%8F" class="btn-wsp" target="_blank">
+    <i class='bx bxl-whatsapp'></i>
+  </a>
+	
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
