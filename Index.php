@@ -290,7 +290,7 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
     height: 170px;">
       <h3>Carlos Aranguiz</h3>
       <p class="w3-opacity">Ingeniero en Informatica</p>
-      <p>Carlos es ingeniero en informatica, acostumbrado a trabajar bajo presion, es una persona bastante resolutiva, 3 años de experiencia desarrollando aplicaciones web, sus habilidades nos han sido de gran ayuda al momento de entregar soluciones a nuestros clientes posee conocimientos en lenguajes tales como ReactJs, NodeJs, php,javascript,Mysql, MongoDb, tambien maneja sistemas como linux y windows.</p>
+      <p>Carlos es ingeniero en informatica, acostumbrado a trabajar bajo presion, es una persona bastante resolutiva, 3 años de experiencia desarrollando aplicaciones web, sus habilidades nos han sido de gran ayuda al momento de entregar soluciones a nuestros clientes posee conocimientos en lenguajes tales como ReactJs, NodeJs, php,javascript,Mysql, MongoDb, tambien maneja sistemas como linux y windows.</p><br>
       <button class="w3-button w3-black w3-section" data-toggle="modal" data-target="#modal_Carlos" style="width: 100%;">
         <i class="fa fa-paper-plane"></i> Contacto Personal
       </button>
