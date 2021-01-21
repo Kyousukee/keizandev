@@ -461,6 +461,18 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
 <footer class="w3-center w3-black w3-padding-16">
   <p>Creado por <a href="https://www.Keizandev.cl" title="Keizandev" target="_blank" class="w3-hover-text-green">Keizandev.cl</a></p>
 </footer>
+	
+	<a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+  <div id="preloader"></div>
+<script>
+function onloadddd() {
+  if ($('#preloader').length) {
+      $('#preloader').delay(100).fadeOut('slow', function() {
+        $(this).remove();
+      });
+    }
+}
+</script>
 
 </body>
   </html>
