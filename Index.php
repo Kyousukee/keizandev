@@ -337,7 +337,7 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
 <!-- Image of location/map -->
 <div class="w3-container">
 	<h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">De donde somos</h3>
-  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26406.715909040024!2d-70.75378318135954!3d-34.17602126955712!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9663434007552cbd%3A0xd8a65c0e5b2a255c!2sRancagua!5e0!3m2!1ses-419!2scl!4v1611153250734!5m2!1ses-419!2scl" width="100%" height="600" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d52823.79322056625!2d-70.77371856489363!3d-34.15946252755563!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96634367bdef13d3%3A0xd973fc8366ad54f7!2sRancagua%2C%20O&#39;Higgins!5e0!3m2!1ses!2scl!4v1611178193540!5m2!1ses!2scl" frameborder="0" style="border:0;width: 100%; height: 600px;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
 </div>
 
 <!-- End page content -->
