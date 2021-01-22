@@ -462,7 +462,7 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
   <p>Creado por <a href="https://www.Keizandev.cl" title="Keizandev" target="_blank" class="w3-hover-text-green">Keizandev.cl</a></p>
 </footer>
 	
-	<a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+	<a href="#" class="back-to-top"><i class=""></i></a>
   <div id="preloader"></div>
 <script>
 function onloadddd() {
