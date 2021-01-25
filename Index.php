@@ -37,7 +37,7 @@
     <!--DatePicker-->
     <script type="text/javascript" src="js/jquery-ui.js"></script>
     <link href="css/jquery-ui.css" rel="stylesheet">
-
+    <link rel="icon" href="img/iconologo.ico">
 
     <style type="text/css">
       .modalDialog {
@@ -151,25 +151,28 @@ transition: opacity 400ms ease-in;
     text-align: left;
 
   }
+  
+  .logoProyectos{
+      height:900px;
+  }
+  
+}
 }
 
     </style>
 <body onload="onloadddd()">
-
-	<a href="https://api.whatsapp.com/send?phone=56932507495&text=Hola!%20Deseo%20mas%20informacion%20del%20servicio%EF%B8%8F" class="btn-wsp" target="_blank">
+  <a href="https://api.whatsapp.com/send?phone=56932507495&text=Hola!%20Deseo%20mas%20informacion%20del%20servicio%EF%B8%8F" class="btn-wsp" target="_blank">
     <i class='bx bxl-whatsapp'></i>
   </a>
-	
 <!-- Navbar (sit on top) -->
 <div class="w3-top">
   <div class="w3-bar w3-white w3-wide w3-padding w3-card">
-    <a href="#home" class="w3-bar-item w3-button" onclick="myFunction()"><b>KZ</b> Desarrollo</a>
+    <a href="#home" class="w3-bar-item w3-button" onclick="myFunction2()"><img src="img/logo.png" width="110px" height="30px"></a>
     <!-- Float links to the right. Hide them on small screens -->
     <div class="topnav " id="myTopnav" >
       <a  class="w3-bar-item w3-button" style="display: none;"></a>
       <a href="#about" class="w3-bar-item w3-button" onclick="myFunction()" >Acerca de</a>
       <a href="#projects" class="w3-bar-item w3-button" onclick="myFunction()" >Proyectos</a>
-      
       <a href="#contact" class="w3-bar-item w3-button" onclick="myFunction()" >Contacto</a>
       
   <script>
@@ -181,6 +184,13 @@ function myFunction() {
     x.className = "topnav";
   }
 }
+
+function myFunction2() {
+  var x = document.getElementById("myTopnav");
+    x.className = "topnav";
+
+}
+
 </script>
     </div>
     <a href="javascript:void(0);" class="icon w3-padding" onclick="myFunction()" style="color: black;">
@@ -193,14 +203,13 @@ function myFunction() {
 <header class="w3-display-container w3-content w3-wide" style="max-width:1500px;" id="home">
   <img class="w3-image" src="img/home.jpg" alt="Informatica" width="1500" height="800">
   <div class="w3-display-middle w3-margin-top w3-center">
-    <h1 class="w3-xxlarge w3-text-white"><span class="w3-padding w3-black w3-opacity-min"><b>KZ</b></span> <span class="w3-hide-small w3-text-light-grey">Desallorro</span></h1>
+    <img src="img/logo.png" style="width: 100%">
   </div>
 </header>
 
 <!-- Page content -->
 <div class="w3-content w3-padding" style="max-width:1564px">
-
-
+    
   <!-- About Section -->
   <div class="w3-container w3-padding-32" id="about">
     <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Acerca de</h3>
@@ -209,9 +218,26 @@ socios como en Paginas Web, escritorio y Android/IOS. Keizandev comenzo hace poc
 si eres una pyme que quiere su propia pagina web o al igual que alguien que necesites de nuestros servicios no dudes en enviarnos un mensaje y nosotros nos pondremos en contacto contigo, podremos conversar y charlas que es lo que esperas en tu sistema futuro y asi poder crecer de una manera inigualable
 gracias a la Tecnologia, Internet y Keizandev.
     </p>
+    <h4>Sistemas para</h4>
+    <div class="form-group">
+      <div class="col-sm-4" style="text-align: center;">
+        <img src="img/desktop.png" alt="Jose" style="    width: 20%;">Escritorio
+      </div>
+      <div class="col-sm-4" style="text-align: center;">
+        <img src="img/web.png" alt="Jose" style="    width: 20%;">Paginas Web
+      </div>
+      <div class="col-sm-4" style="text-align: center;">
+        <img src="img/mobile.png" alt="Jose" style="    width: 20%;">Mobile Android/IOS
+      </div>
+    </div>
+    
   </div>
 
-  <div class="form-group" style="text-align: center;">
+
+  <div class="w3-container w3-padding-32" id="">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Nosotros</h3>
+    <div class="form-group w3-padding-32" style="text-align: center;">
+
     <div class="col-sm-6">
       <img src="img/usuario.png" alt="Jose" style="    width: 150px;
     height: 170px;">
@@ -252,22 +278,37 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
       <p>Phasellus eget enim eu lectus faucibus vestibulum. Suspendisse sodales pellentesque elementum.</p>
       <p><button class="w3-button w3-light-grey w3-block">Contact</button></p>
     </div>-->
+    
+    
   </div>
-	
-  
-  <!-- Project Section -->
-  <div class="w3-container w3-padding-32" >
-   
+    
+    
   </div>
 
+   <div class="w3-container w3-padding-32" id="about">
+    <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Lenguajes/Frameworks/BD</h3>
+    <div class="form-group w3-padding-32" style="text-align: center;">
+      
+      <img src="img/lenguajes.png" alt="Jose" style="width: 100%;">
+    </div>
+    
+  </div>
+
+
+  
+
+    
+
+
   <div class="w3-row-padding" id="projects">
-	   <h3 class="w3-border-bottom w3-border-light-grey w3-padding-16">Proyectos</h3>
+      <h3 class="w3-border-bottom w3-border-light-grey ">Proyectos</h3>
     <div class="w3-col l3 m6 w3-margin-bottom">
-      <div class="w3-display-container">
-        <div class="w3-display-topleft w3-black w3-padding">Summer House</div>
-        <img src="/w3images/house5.jpg" alt="House" style="width:100%">
+      <div class="w3-display-container" style="overflow: hidden;">
+        <div class="w3-display-topleft w3-black w3-padding"><a style="text-decoration: none; color: white;" href="http://techbyte.cl/" target="_blank">TechByte.cl</a></div>
+        <a class="logoProyectos" href="http://techbyte.cl/" target="_blank"><img src="http://techbyte.cl/assets/img/logo.png" class="logoProyectos" alt="Web TechByte" style="width:100%; height: 50%"></a>
       </div>
     </div>
+    <!--
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
         <div class="w3-display-topleft w3-black w3-padding">Brick House</div>
@@ -286,8 +327,9 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
         <img src="/w3images/house4.jpg" alt="House" style="width:100%">
       </div>
     </div>
+-->
   </div>
-
+<!--
   <div class="w3-row-padding">
     <div class="w3-col l3 m6 w3-margin-bottom">
       <div class="w3-display-container">
@@ -314,6 +356,8 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
       </div>
     </div>
   </div>
+
+  -->
 
   <!-- Contact Section -->
   <div class="w3-container w3-padding-32" id="contact">
@@ -465,8 +509,8 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
 <footer class="w3-center w3-black w3-padding-16">
   <p>Creado por <a href="https://www.Keizandev.cl" title="Keizandev" target="_blank" class="w3-hover-text-green">Keizandev.cl</a></p>
 </footer>
-	
-	<a href="#" class="back-to-top"><i class=""></i></a>
+
+<a href="#" class="back-to-top"><i class=''></i></a>
   <div id="preloader"></div>
 <script>
 function onloadddd() {

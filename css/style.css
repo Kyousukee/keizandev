@@ -220,38 +220,6 @@ table tr th { color: #688a7e;}
 
 }
 
-.login-form a{
-
-    color: #688a7e !important;
-
-}
-
-.login-form h2.login-form-heading {
-
-    margin: 0;
-
-    padding:20px 15px;
-
-    text-align: center;
-
-    background: #34aadc;
-
-    border-radius: 5px 5px 0 0;
-
-    -webkit-border-radius: 5px 5px 0 0;
-
-    color: #fff;
-
-    font-size: 18px;
-
-    text-transform: uppercase;
-
-    font-weight: 300;
-
-    font-family: 'Lato', sans-serif;
-
-}
-
 /*--------------------------------------------------------------
 # Preloader
 --------------------------------------------------------------*/
@@ -297,6 +265,40 @@ table tr th { color: #688a7e;}
   100% {
     transform: rotate(360deg);
   }
+}
+
+
+
+.login-form a{
+
+    color: #688a7e !important;
+
+}
+
+.login-form h2.login-form-heading {
+
+    margin: 0;
+
+    padding:20px 15px;
+
+    text-align: center;
+
+    background: #34aadc;
+
+    border-radius: 5px 5px 0 0;
+
+    -webkit-border-radius: 5px 5px 0 0;
+
+    color: #fff;
+
+    font-size: 18px;
+
+    text-transform: uppercase;
+
+    font-weight: 300;
+
+    font-family: 'Lato', sans-serif;
+
 }
 
 
