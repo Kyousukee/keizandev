@@ -25,7 +25,7 @@
 		$mail = @mail($para, $asunto, $mensaje,$header);
 
 		if ($mail) {
-			echo "<script>window.onload=function() {location.replace('http://keizandev.cl/');alert('Mensaje enviado');};</script>";
+			echo "<script>alert('Mensaje enviado');</script>";
 		}
 	}
 }
