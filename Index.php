@@ -37,7 +37,7 @@
     <!--DatePicker-->
     <script type="text/javascript" src="js/jquery-ui.js"></script>
     <link href="css/jquery-ui.css" rel="stylesheet">
-    <link rel="icon" href="img/iconologo.ico">
+    <link rel="icon" href="img/iconologo2.png">
 
     <style type="text/css">
       .modalDialog {
