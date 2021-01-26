@@ -239,7 +239,7 @@ gracias a la Tecnologia, Internet y Keizandev.
     <div class="form-group w3-padding-32" style="text-align: center;">
 
     <div class="col-sm-6">
-      <img src="img/usuario.png" alt="Jose" style="    width: 150px;
+      <img src="img/persona1.jpg" alt="Jose" style="    width: 150px;
     height: 170px;">
       <h3>Jose Vergara</h3>
       <p class="w3-opacity">Analista Programador</p>
