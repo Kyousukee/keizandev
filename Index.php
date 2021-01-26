@@ -302,7 +302,7 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
 
   <div class="w3-row-padding" id="projects">
       <h3 class="w3-border-bottom w3-border-light-grey ">Proyectos</h3>
-    <div class="w3-col l3 m6 w3-margin-bottom">
+    <div class="w3-col l3 m6 w3-margin-bottom box">
       <div class="w3-display-container" style="overflow: hidden;">
         <div class="w3-display-topleft w3-black w3-padding"><a style="text-decoration: none; color: white;" href="http://techbyte.cl/" target="_blank">TechByte.cl</a></div>
         <a class="logoProyectos" href="http://techbyte.cl/" target="_blank"><img src="http://techbyte.cl/assets/img/logo.png" class="logoProyectos" alt="Web TechByte" style="width:100%; height: 50%"></a>
