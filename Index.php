@@ -255,8 +255,7 @@ C# y visual basic. Tambien se reconoce al tener un fuerte conocimiento en base d
 
     </div>
     <div class="col-sm-6">
-      <img src="img/usuario.png" alt="Carlos" style="    width: 150px;
-height: 170px;">
+     
       <img src="img/persona2.jpg" alt="Carlos" style="    width: 150px;
 
     height: 170px;">
